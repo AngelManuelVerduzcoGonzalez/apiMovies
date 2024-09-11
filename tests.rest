@@ -1,19 +1,17 @@
 //Agregar película
 GET http://localhost:3000/movies?action=create&title=Forest-Gump&genre=Comedy&releaseDate=1994&url=https://m.media-amazon.com/images/S/pv-target-images/f9ddd832d1b566f5b8dd29a4dbc76b7531c420c8c8d9fdfe94eca128bda8e2b1.jpg
-###
-GET http://localhost:3000/movies?action=create&title=hanzeel&genre=hanzeel&releaseDate=5678&url
-###
-GET http://localhost:3000/movies?action=create&title=jose&genre=jose&releaseDate=9876&url
 
 ###
 
 //Actualizar película
-GET http://localhost:3000/movies?action=update&title=Forrest_Gump&genre=Comedy/Romance&releaseDate=1994&id=2&url=https://m.media-amazon.com/images/S/pv-target-images/f9ddd832d1b566f5b8dd29a4dbc76b7531c420c8c8d9fdfe94eca128bda8e2b1.jpg
+GET http://localhost:3000/movies?action=update&title=Forest_Gump&genre=Comedy/Romance&releaseDate=1994&id=2&url=https://m.media-amazon.com/images/S/pv-target-images/f9ddd832d1b566f5b8dd29a4dbc76b7531c420c8c8d9fdfe94eca128bda8e2b1.jpg
 
 ###
 
 //Obtener película
 GET http://localhost:3000/movies?action=read
+###
+GET http://localhost:3000/movies?action=read&id=1
 
 ###
 
