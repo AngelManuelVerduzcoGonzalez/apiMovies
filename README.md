@@ -14,12 +14,12 @@ Recuerda **NO** subir el archivo `.env` a tu repositorio público, ya que contie
 
 # 🧪 API Testing
 
-Puedes probar la API utilizando **REST Client**, una extensión que puedes instalar fácilmente desde el panel de extensiones de Visual Studio Code. Una vez instalada, puedes usar el archivo `tests.test` que está incluido en el proyecto para probar los distintos endpoints.
+Puedes probar la API utilizando **REST Client**, una extensión que puedes instalar fácilmente desde el panel de extensiones de Visual Studio Code. Una vez instalada, puedes usar el archivo `tests.rest` que está incluido en el proyecto para probar los distintos endpoints.
 
 ### 💡 Alternativa Sin REST Client
 Si prefieres no instalar **REST Client**, también puedes probar los endpoints directamente desde tu navegador:
 
-1. Abre el archivo `tests.test`.
+1. Abre el archivo `tests.rest`.
 2. Copia los enlaces de los endpoints que desees probar.
 3. Pégalos en tu navegador para hacer las solicitudes a la API y ver los resultados.
 
